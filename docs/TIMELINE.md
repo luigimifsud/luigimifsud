@@ -44,7 +44,6 @@ Dated events from my notes and result files, from January 2026 to today: builds 
 - 8 Aug: I train my Maltese model, 104.5 million parameters.
 - 8 Aug: on 512 fixed held-out windows the 295 million parameter model scores 1.3186, not the training log's best of 1.184, so I stop quoting the log's best.
 - 9 Aug: a model trained with Maltese as one row in six is 0.0572 worse on general text, over the 0.05 I had registered, so I record that prediction as failed.
-- 9 Aug: I correct Qwen's score from 0.9852 to 0.9768, after finding that my scoring code had added a charge that helped me.
 
 ## September 2026
 

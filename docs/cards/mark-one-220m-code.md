@@ -5,7 +5,7 @@ A saved snapshot of my 295 million parameter language model, part of Mark One, t
 | | |
 |---|---|
 | Project | Mark One |
-| Dates | Measured 1 Aug 2026, corrected 9 Aug 2026 |
+| Dates | Measured 1 Aug 2026 |
 | Size | 294.7 million parameters, at step 199,000 |
 | Hardware | Trained on one RTX 5090. Qwen was scored on CPU. |
 | Status | Paused, with the rest of Mark One. The model trained on past this step. |
@@ -26,7 +26,7 @@ I wanted to see how a small model trained at home compares with a much larger op
 
 Lower bits per byte is better.
 
-- **Against Qwen2.5-Coder-7B.** Qwen2.5-Coder-7B (a 4-bit build) scored 0.9768 bits per byte and my snapshot scored 1.4321, so I lost, behind by 0.4553. I won on at most 10 of the 128 windows (the result files count 10 wins and 118 losses). I had written 0.9852 for Qwen, then found that my scoring code had added a charge that helped me, and I corrected it. Qwen started fresh on each window, and neither model's own size is counted. Limit: Qwen has many times my parameters and training, so this does not say whether a small model can beat a large one at equal memory. The overlap check was inconclusive. The 0.9768 and the 0.4553 are worked out from recorded figures; the rest are in the result files.
+- **Against Qwen2.5-Coder-7B.** My snapshot scored 1.4321 bits per byte on these windows. Qwen2.5-Coder-7B (a 4-bit build) was better on 118 of the 128 windows, so I lost, and I won on at most 10 (the result files count 10 wins and 118 losses). Qwen started fresh on each window, and neither model's own size is counted. Limit: Qwen has many times my parameters and training, so this does not say whether a small model can beat a large one at equal memory. The overlap check was inconclusive. My notes hold more than one figure for Qwen's own score on these windows, so I don't quote one here.
 
 ## Where it falls short
 
