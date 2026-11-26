@@ -59,6 +59,8 @@ The 32B and mixture-of-experts runs, the pilot, the timed runs against llama.cpp
 - [TETRA mesh](projects/tetra.md): an overlay on top of the normal internet, with four layers of encryption, for distributed training. Prototype, dormant, never audited outside my projects.
 - [Jarvis](projects/jarvis.md): a WhatsApp booking assistant for Apex Dental, my dad's two dental clinics in Malta, used by real patients since September 2026. You can message the clinic on WhatsApp from [apexdentalmalta.com](https://www.apexdentalmalta.com) and watch it answer.
 
+Model cards, method, results and a timeline: [docs](docs/README.md).
+
 ## Where things stand
 
 - Nobody outside my projects has reproduced a result yet. [How to check what this site says](VERIFY.md) goes claim by claim: what you can check today, and what you can't yet.
