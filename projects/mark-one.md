@@ -45,10 +45,10 @@ Standard compressors start cold on short windows, so this shows the model learne
 My scoreboard has a line I still go by: "A named wall is a result, not a failure." These are the walls Mark One hit.
 
 - An early "beats gzip" claim was retracted in writing.
-- My earliest 40 million parameter model got 0 of 200 exact matches on completions of real Python test files (26 Jul).
+- My earliest 40.6 million parameter model got 0 of 200 exact matches on completions of real Python test files (26 Jul).
 - Mark One 295M scored 0.788 bits per byte against 0.593 for Qwen2.5-Coder-0.5B, on 256 fixed windows of 2,048 bytes of held-out code. It was behind by 0.195 and won on 18 of the 256 windows. Larger Qwen models scored 0.496 at 1.5B and 0.442 at 7.6B. Qwen probably saw similar code, and the holdout is not proven clean.
-- The 220M code model lost to Qwen2.5-Coder-7B on 118 of 128 windows.
-- Qwen2.5-Coder-7B (a 4-bit build) scored 0.985 bits per byte against Mark One's 1.432 on 128 windows.
+- A snapshot of my 295M model (labelled 220m in my notes, and trained on a general text mix, not on code alone) lost to Qwen2.5-Coder-7B on 118 of 128 windows of general held-out text.
+- On those 128 windows Qwen2.5-Coder-7B (a 4-bit build) was better on 118; my snapshot won on at most 10.
 - Shrinking weight matrices without retraining made every size worse.
 - Four small pre-registered probes (4 seeds each, small models on a corpus of two textbooks) each ended KILL. The ideas failed at that size, which is not the same as never working.
 - Separately, several of my home-built compressors lost to standard tools (7-Zip PPMd, lzma). They are on the [dead ends](dead-ends.md) page. A compression result that did hold up, with its limits stated, has its own page: the [compression demonstrator](compression-demo.md).
