@@ -56,7 +56,6 @@ My own builds in 2026, each with a line on what it is and a link where it has it
 - **[QMK-2](../projects/dead-ends.md).** A QMK model that lost to 7-Zip PPMd, 1.606522 bits per byte against 1.530961 on a registered test slice of 1,315,021 bytes.
 - **[QMK-3](../projects/dead-ends.md).** My own written verdict of 2 Oct 2026: real but modest, not yet a capability, ten goals at 0 of 10. It added nothing to Jarvis's reader on the meaning label.
 - **[A legal-text test](../projects/dead-ends.md).** On legal text held back from building (24 Sep 2026), a CPU-built model scored 0.7207 on rebuilding word pairs against 0.4947 for a word-frequency baseline, over 7,503 legal documents; not a legal-accuracy score.
-- **A Powder Toy bridge.** An attempt to let one of my earlier learning models act inside The Powder Toy, an open-source sandbox game; its actions barely changed the game world in my tests, and I abandoned it.
 - **[Mark One probes](../projects/mark-one.md).** Pre-registered experiments on Mark One, each with its kill rule written in advance; two ended KILL.
 - **[Home-built compressors](../projects/dead-ends.md).** Several of my home-built compressors lost to standard tools (7-Zip PPMd, lzma).
 - **[An AlphaFold side line](../projects/dead-ends.md).** A standard AlphaFold 2 baseline ran bit-identical from run to run on the chains I tested, and none of my one-day tests of new ideas against it passed.
