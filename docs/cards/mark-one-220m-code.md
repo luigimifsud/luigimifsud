@@ -12,7 +12,7 @@ A saved snapshot of my 295 million parameter language model, part of Mark One, t
 
 ## What it was for
 
-My notes label this run 220m, which is why I have called it the 220M code model. It is my 295M model at step 199,000, and it was trained on a general text mix, not on code alone.
+My notes give this run a different size label. It is my 295M model at step 199,000, and it was trained on a general text mix, not on code alone.
 
 I wanted to see how a small model trained at home compares with a much larger open code model on the same held-out text. Qwen2.5-Coder-7B has many times its parameters and training, so this measures the gap. It does not test whether a small model can beat a large one at equal memory.
 
@@ -42,7 +42,7 @@ Lower bits per byte is better.
 ## Check it yourself
 
 - **Today.** Nothing you can run. The model and the test windows are private.
-- **On a call.** I can open the two result files and the note where I corrected the Qwen figure.
+- **On a call.** I can open the two result files behind this comparison.
 - [How to check what this site says](../../VERIFY.md#mark-one) covers what can and can't be checked for Mark One.
 
 ## More

@@ -41,6 +41,11 @@ These cards say what each model did and what it was measured on. They don't desc
 
 ## Documents
 
+- [START_HERE.md](START_HERE.md): where to start, for 2, 10 or 30 minutes.
+- [WITHDRAWN.md](WITHDRAWN.md): claims I withdrew, narrowed or ruled VOID, and why.
+- [OPEN_PROBLEMS.md](OPEN_PROBLEMS.md): what is not solved yet, as research questions.
+- [LESSONS.md](LESSONS.md): what the dead ends taught me, from my own written verdicts.
+- [PLAN.md](PLAN.md): the next two years, built from aims already on record.
 - [METHOD.md](METHOD.md): how I test results before I quote them.
 - [RESULTS.md](RESULTS.md): every result in one place, losses included.
 - [TIMELINE.md](TIMELINE.md): dated events from January to 26 Nov 2026.

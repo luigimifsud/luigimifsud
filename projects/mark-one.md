@@ -50,7 +50,7 @@ My scoreboard has a line I still go by: "A named wall is a result, not a failure
 - The 220M code model lost to Qwen2.5-Coder-7B on 118 of 128 windows.
 - Qwen2.5-Coder-7B (a 4-bit build) scored 0.985 bits per byte against Mark One's 1.432 on 128 windows.
 - Shrinking weight matrices without retraining made every size worse.
-- Two pre-registered probes ended KILL.
+- Four small pre-registered probes (4 seeds each, small models on a corpus of two textbooks) each ended KILL. The ideas failed at that size, which is not the same as never working.
 - Separately, several of my home-built compressors lost to standard tools (7-Zip PPMd, lzma). They are on the [dead ends](dead-ends.md) page. A compression result that did hold up, with its limits stated, has its own page: the [compression demonstrator](compression-demo.md).
 
 I keep these here because they are part of the result.

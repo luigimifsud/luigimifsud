@@ -22,7 +22,7 @@ Dated events from my notes and result files, from January 2026 to today: builds 
 - 18 Jul: I commit Forge, my early from-scratch model and the code to train it. Its 85.56 million parameter run wrote code-shaped noise, not working code.
 - 23 Jul: I start two training runs of a 104.5 million parameter model on the RTX 5090. I give no score for either.
 - 25 Jul: my 40.6 million parameter model reads 3.27 times smaller than gzip on 96 windows.
-- 25 to 27 Jul: I find six places where I had set up a rival compressor too weakly, each time in my favour. I now push a rival's settings to the tool's documented limit before I use its number.
+- Jul: I find six places where I had set up a rival compressor too weakly, each time in my favour. I now push a rival's settings to the tool's documented limit before I use its number.
 - 26 Jul: after I remove the windows that overlapped my training text, the headline falls to 2.49 times.
 - 26 Jul: the 40.6 million parameter model gets 0 of 200 completions of Python's own test files exactly right.
 - 26 Jul: on 96 held-out windows of web text, the 40.6 million parameter model is 1.2999 times smaller than brotli at its highest setting. The compressors start cold on each short window, so this shows what the model learned, not a better general-purpose compressor.

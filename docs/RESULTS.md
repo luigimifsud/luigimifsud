@@ -160,7 +160,7 @@ My early from-scratch model, and the Mark One losses that have no table of their
 |---|---|---|---|---|
 | On 18 Jul 2026 I committed Forge, my early from-scratch model and the code to train it. On one RTX 5070 with 12 GB it trained an 85.56 million parameter model from random weights on 40 MB of multi-language source code in 12.4 minutes, and the validation loss fell from 6.14 to 0.89, against 1.56 for a 10.82 million parameter model trained on 8 MB. The samples it wrote were code-shaped noise, not working code, so this shows the training code learns structure, not that it makes a coding model. | 40 MB of multi-language source code, one run each, on an RTX 5070 | A 10.82 million parameter model trained on 8 MB | One run each. Its notes do not state the unit of the loss. Code-shaped noise, not working code | Recorded |
 | Shrinking weight matrices without retraining made every size worse. | My Mark One models | The same models before shrinking | A loss | Recorded |
-| Two pre-registered probes ended KILL. | Their own registered rules | Their own registered rules | Both stopped | Recorded |
+| Four small pre-registered probes (4 seeds each) each ended KILL. | Small models on a corpus of two textbooks | The plain model, under each probe's own registered rules | The ideas failed at this size, not for good | Recorded |
 | An early "beats gzip" claim did not hold up, and I retracted it in writing. | Early Mark One measurements | gzip | Retracted. The code result I cite now is a different measurement, on held-out code cleaned of overlap with the training data | Recorded |
 
 ## The compression demonstrator

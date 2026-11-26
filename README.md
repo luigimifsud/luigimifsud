@@ -60,6 +60,8 @@ The 32B and mixture-of-experts runs, the pilot, the timed runs against llama.cpp
 - [Jarvis](projects/jarvis.md): a WhatsApp booking assistant for Apex Dental, my dad's two dental clinics in Malta, used by real patients since September 2026. You can message the clinic on WhatsApp from [apexdentalmalta.com](https://www.apexdentalmalta.com) and watch it answer.
 
 Model cards, method, results and a timeline: [docs](docs/README.md).
+- [Start here](docs/START_HERE.md): what to read in 2, 10 or 30 minutes.
+- [Claims I withdrew](docs/WITHDRAWN.md), [open problems](docs/OPEN_PROBLEMS.md), [what the dead ends taught me](docs/LESSONS.md) and [the next two years](docs/PLAN.md).
 
 ## Where things stand
 

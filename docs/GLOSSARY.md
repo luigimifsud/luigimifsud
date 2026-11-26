@@ -136,7 +136,7 @@ Scope today: five Qwen2.5 open models (0.5B to 32B) and one mixture-of-experts m
 
 ## K
 
-**KILL.** The verdict word for a pre-registered test whose result lands on the line, written down in advance, for stopping the idea. A probe is a small, quick test of one idea. Two pre-registered probes in Mark One ended KILL, and they stay on record as losses.
+**KILL.** The verdict word for a pre-registered test whose result lands on the line, written down in advance, for stopping the idea. A probe is a small, quick test of one idea. Four small pre-registered probes in Mark One ended KILL, and they stay on record as losses.
 
 ## L
 
@@ -200,7 +200,7 @@ Scope today: five Qwen2.5 open models (0.5B to 32B) and one mixture-of-experts m
 
 **Practice-management diary.** The software a clinic keeps its appointments in, where reception sees the bookings. Jarvis reads and writes the clinic's diary, so what it books is what reception sees.
 
-**Pre-registered.** Written down before a test runs: what will be measured and what counts as a pass. A registered test slice is a piece of test data fixed and recorded the same way, before the test. Two pre-registered probes in Mark One ended KILL.
+**Pre-registered.** Written down before a test runs: what will be measured and what counts as a pass. A registered test slice is a piece of test data fixed and recorded the same way, before the test. Four small pre-registered probes in Mark One ended KILL.
 
 **Preview and locked verdict.** A locked verdict is a result read against a pass rule that was written down and locked with a hash before the result existed. A preview is an earlier look that has not been through that, so it can still change. My Hail Mary arithmetic result is one seed per setup, a preview, not a locked verdict.
 
