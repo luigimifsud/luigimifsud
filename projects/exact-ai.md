@@ -109,9 +109,9 @@ This is one session on a 32B model. Its scope line comes straight after it.
 
 Scope of this result: one session, on one desktop PC's CPU, with one model and 19 prompts; it covers no other machine, GPU, model, prompt set or llama.cpp setting.
 
-### Exactness at size, on test networks
+### Exactness at size, with seed-generated weights
 
-These use test networks with seed-generated weights, not trained models. They check that results stay exact when the network is very large. They say nothing about any model's quality or speed.
+These use very large test setups with seed-generated weights, not trained models. They check that results stay exact at that size. They say nothing about any model's quality or speed.
 
 > We pushed one token through a 5-trillion-parameter test network with seed-generated weights (not a trained model) on one RTX 5090, and two CPU implementations matched the GPU bit for bit on every value we compared.
 

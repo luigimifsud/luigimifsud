@@ -30,7 +30,7 @@ Inside Project Alpha I tried a side line on protein structure. A standard AlphaF
 
 ## Home-built compressors that lost
 
-Several of my home-built compressors lost to standard tools, 7-Zip PPMd and lzma. QMK-2's loss is above. Even the compressor that did hold up loses on English text, to PPMd by 0.351291 bits per byte. Its win on Python source, with all its limits, is on the [compression demonstrator](compression-demo.md) page.
+Several of my home-built compressors lost to standard tools, 7-Zip PPMd and lzma. QMK-2's loss is above. Even the compressor that held up on Python source loses on English text, to PPMd by 0.351291 bits per byte. Its win, with all its limits, is on the [compression demonstrator](compression-demo.md) page.
 
 ## The "beats gzip" claim
 
@@ -42,9 +42,7 @@ Early in Mark One I had a "beats gzip" claim. It did not hold up, and I retracte
 - Project Hail Mary lost its one equal-time race against a standard model, and is behind my own earlier model ([Project Hail Mary](hail-mary.md)).
 - QMK World failed its physics exam ([QMK World](qmk-world.md)).
 - Computing without binary is mostly negative, in simulation ([computing research](computing-research.md)).
-- FamilyWalkie started as cellular service without a phone number, which cannot be built from an app ([FamilyWalkie](familywalkie.md)).
 - Project Alpha missed its earliest milestone, due 18 Nov 2026 ([exact AI](exact-ai.md)).
-- Trace had no customer conversations by 8 Jul 2026 ([Trace and Reclaim](trace-and-reclaim.md)).
 
 ## Check it yourself
 

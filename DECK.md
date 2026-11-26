@@ -86,7 +86,7 @@ Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/exact-ai.
 
 ## Slide 8: How to check this
 
-You can check today: the clinic website, apexdentalmalta.com, is live, and you can message the clinic on WhatsApp from its website and watch Jarvis answer. On a call I can open the log or result file behind a number, with code, design and patient data off screen. Once the portfolio repo is public, its history dates every write-up.
+You can check today: the clinic Jarvis serves is real, and you can message it on WhatsApp from its website, apexdentalmalta.com, and watch Jarvis answer. On a call I can open the log or result file behind a number, with code, design and patient data off screen. Once the portfolio repo is public, its history dates every write-up.
 
 Not checkable yet: nobody outside my projects has reproduced a result. The "try it yourself" download has not been run on a second machine or sent. Hail Mary's design is private and its results come from my own runs. Jarvis's usage numbers come from its own logs. My repos are private.
 
@@ -106,7 +106,7 @@ From the bot's own logs, 12 to 18 Oct 2026: 388 chats with 269 phone numbers; 54
 
 Check: the clinic's website is live at apexdentalmalta.com, and you can message the clinic on WhatsApp from its website and watch Jarvis answer. Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/jarvis.md
 
-Notes: It reads and writes the clinic's practice-management diary, takes EUR 20 booking fees by card (SumUp) inside the chat, sends reminders with an SMS fallback, and reads every patient message for red-flag symptoms before anything else, in English, Italian, Spanish and Maltese. If it can't answer, it fails closed: the patient gets one fixed reply and staff are flagged. New behaviour runs in shadow mode before it goes live, and the rule is "cancel, never delete". Its own evaluation set of 12 Nov: 95 of 114 hand-built cases pass (83 percent); on 272 machine-picked "went wrong" moments, 61 pass (22 percent); 217 of 477 overall (45 percent). The 363 machine-picked cases have not been checked by a person. Jarvis had 3,078 commits on 26 Nov; they show "Jonathan Mifsud" because I committed under my dad's git identity. Before Jarvis I built the clinic's website: 67 pages in English and Italian, 527 commits from 17 Mar to 25 Nov 2026. All Jarvis's users are the clinic's patients and staff, and there is no software revenue: the booking fees are clinic income. No patient chat or screenshot is ever shown.
+Notes: It reads and writes the clinic's practice-management diary, takes EUR 20 booking fees by card (SumUp) inside the chat, sends reminders with an SMS fallback, and reads every patient message for red-flag symptoms before anything else, in English, Italian, Spanish and Maltese. If it can't answer, it fails closed: the patient gets one fixed reply and staff are flagged. New behaviour runs in shadow mode before it goes live, and the rule is "cancel, never delete". Its own evaluation set of 12 Nov: 95 of 114 hand-built cases pass (83 percent); on 272 machine-picked "went wrong" moments, 61 pass (22 percent); 217 of 477 overall (45 percent). The 363 machine-picked cases have not been checked by a person. Jarvis had 3,078 commits on 26 Nov; they show "Jonathan Mifsud" because I committed under my dad's git identity. All Jarvis's users are the clinic's patients and staff, and there is no software revenue: the booking fees are clinic income. No patient chat or screenshot is ever shown.
 
 ## Slide 10: Before these two: research that led here
 
@@ -115,27 +115,21 @@ Notes: It reads and writes the clinic's practice-management diary, takes EUR 20 
 - **Mark One on code, two separate results, not a before and after:** an early 40 million parameter model got 0 of 200 exact matches on completions of real Python test files (26 Jul); my 295 million parameter model solved 164 of 200 small generated Python tasks with 8 tries each, 150 with one greedy try (an earlier model of the same size: 120 and 107). The suite was frozen on 1 Aug and judged by running each program; it is not a public benchmark, and no rival was run on it.
 - **The earlier learning models, QMK and AMK:** over about seven weeks, the models I built under strict rules never got past reading back what they had been fed. I changed the rules on 17 Nov, and the learning work went on in Hail Mary.
 - **A compression demonstrator**, packaged so a stranger could re-run it, with its losses stated beside its win. Not published yet, so nobody can run it today.
+- **LIGHTGAP** (25 Oct to 2 Nov 2026; 440 commits): my own text compressor, written from scratch in Rust. On a development set of 3,653,983 characters of English Wikipedia (enwik8, mapped to 26 letters and the space), it needed 1.152914 bits per character and decoded back exactly, against 1.7694 for 7-Zip PPMd, the best standard compressor on my PC. That set helped choose the settings, so it is not a test; the sealed test, with its pass line written down in advance, had not run as of 2 Nov 2026. Going under 1.3 bits per character is not new: it is a compressor I built from nothing, not a record.
 - **Computing without binary:** tests in simulation, mostly negative, written down as negative. No chip has been made.
 
-Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/mark-one.md, https://github.com/luigimifsud/luigimifsud/blob/main/projects/compression-demo.md and https://github.com/luigimifsud/luigimifsud/blob/main/projects/computing-research.md
+Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/mark-one.md, https://github.com/luigimifsud/luigimifsud/blob/main/projects/compression-demo.md, https://github.com/luigimifsud/luigimifsud/blob/main/projects/lightgap.md and https://github.com/luigimifsud/luigimifsud/blob/main/projects/computing-research.md
 
 Notes: Mark One also lost, and those losses are on the dead ends slide. An earlier result from my own model research in August is in appendix B, with the engine results, because it sits in the same record.
 
-## Slide 11: The range
+## Slide 11: Two more builds
 
 - **QMK World** (late Sep to 7 Oct 2026): an Earth-sized voxel simulator, with Malta rebuilt 1:1: all 112,147 buildings of Malta and Gozo at their measured heights, from the national one-metre height survey (about 20 to 30 parts in deep shadow are wrongly dropped, an estimate). On an exam of 42 physics items on 27 Sep, the world agreed with the real Earth on 10, was wrong on 20 and could not tell on 12: a failing grade, said as one.
-- **Baseline Halo:** a free Windows guardian with a stalkerware scan and encrypted chat. 131 commits; its plan recorded "Full suite 1230 passed, 2 skipped" on 26 Aug, and a red-team list of 31 of 31 closed.
-- **Baseline Trace:** a desktop tool for small EU crypto firms that checks addresses against the US sanctions list and writes a signed, tamper-evident record offline. 703 commits.
-- **Baseline Reclaim:** a Bitcoin exposure checker that never touches funds. 91 commits; 73 of 73 tests.
-- **FamilyWalkie:** a no-SIM family push-to-talk radio that uses every radio a phone has. 106 commits; 603 of 603 tests in each of four build variants.
-- **Apex in 3D:** reels rendered frame by frame from the clinic's 3D treatment films, with no AI image or voice models. 5 ready, none posted yet.
-- **CBCT helper:** a 3D Slicer add-on for dental implant planning that runs the public DentalSegmentator model. About 14 builds, awaiting clinical checks.
-- **TETRA mesh** (11 to 14 Sep 2026): an overlay network with four layers of encryption, for distributed training. 564 tests, 563 passing, from its status file; never audited outside my projects.
-- **Also built:** FreedomChat and AgentLedger.
+- **TETRA mesh** (11 to 14 Sep 2026): an overlay on top of the normal internet, with four layers of encryption, for distributed training. 564 tests, 563 passing, from its status file; never audited outside my projects.
 
-Details: every project is written up at https://github.com/luigimifsud, most on a page of its own and the smallest together on one page.
+Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/qmk-world.md and https://github.com/luigimifsud/luigimifsud/blob/main/projects/tetra.md
 
-Notes: Commit counts were re-counted from each project's git history on 26 Nov 2026. Test counts are what each project's own files recorded, not re-run. Trace had no customer conversations by 8 Jul.
+Notes: TETRA's test count is what its own status file recorded, not re-run. QMK World is paused, and TETRA has been dormant since September 2026.
 
 ## Slide 12: Dead ends and losses on record
 
@@ -143,7 +137,6 @@ Notes: Commit counts were re-counted from each project's git history on 26 Nov 2
 
 - **Project Hail Mary:** it lost its one equal-time race, scored 0.000 on name-lookup questions in that race, and is behind my own earlier model of the same size on every story window. Its training runs on the card are not repeatable yet.
 - **PhotoLocator** (June 2026): a tool to guess where a photo was taken. An early benchmark claim was later found false, and I stopped it as a dead end.
-- **FamilyWalkie** started as cellular service without a phone number. Its own notes say plainly that real cellular service from an app is not buildable, so it became a radio instead.
 - **Computing without binary:** a ternary cell lost on transistors per bit, stochastic computing was closed as a negative, and a bit-slicing idea died to both of its controls.
 - **An AlphaFold side line:** none of my one-day tests of new ideas passed.
 - **Mark One:** an early "beats gzip" claim was retracted in writing; the 220M code model lost to Qwen2.5-Coder-7B on 118 of 128 windows; Mark One 295M scored 0.788 bits per byte against 0.593 for Qwen2.5-Coder-0.5B on 256 fixed windows of 2,048 bytes of held-out code, behind by 0.195, winning on 18 of 256 windows (Qwen probably saw similar code, and the holdout is not proven clean); two pre-registered probes ended KILL.
@@ -277,9 +270,9 @@ The current package:
 
 > Our pilot, Exact Server (Windows package v3.1), installs from one zip on a Windows PC and answers in the standard chat-completions form only on that PC's own local address, refusing requests from a web page or under a foreign host name; it attaches a signed receipt to every answer. On a fresh install, the same questions gave the same answers as on our earlier pilot install and a repeated question gave the same answer again, a one-command checker accepted every genuine receipt and rejected every forged one we tried, an audit pointed to the exact token we had changed, all 6,336 fixed test rows matched their reference, and a damaged or missing model file made it refuse to start, naming the file. It ships one small open model (Qwen2.5-Coder-0.5B-Instruct).
 
-## Slide B4: Exactness on very large test networks
+## Slide B4: Exactness at very large sizes
 
-These use test networks with seed-generated weights, not trained models. They check that output stays exact when the network is very large, and they say nothing about any model's quality or speed. I never describe them as models.
+These use very large test setups with seed-generated weights, not trained models. They check that output stays exact at that size, and they say nothing about any model's quality or speed. I never describe them as models.
 
 > We pushed one token through a 5-trillion-parameter test network with seed-generated weights (not a trained model) on one RTX 5090, and two CPU implementations matched the GPU bit for bit on every value we compared.
 

@@ -6,8 +6,7 @@ Everything on this site was built and measured inside my own projects, and nobod
 
 ## What you can check today
 
-- **The clinic website is live.** Open [apexdentalmalta.com](https://www.apexdentalmalta.com). It is in English and Italian. I built it, and it is the website of the clinic Jarvis works for. Whose name its commits show is explained under [Jarvis](#jarvis).
-- **Jarvis on WhatsApp.** You can message the clinic on WhatsApp from its website and watch Jarvis answer.
+- **Jarvis on WhatsApp.** The clinic Jarvis works for is real, and its website is live at [apexdentalmalta.com](https://www.apexdentalmalta.com). You can message the clinic on WhatsApp from its website and watch Jarvis answer.
 - **This repo's own history.** Once this repo is public at [github.com/luigimifsud/luigimifsud](https://github.com/luigimifsud/luigimifsud), its commits show when each write-up was added and changed. That dates the write-ups, not the work behind them.
 - **On a call.** I can share my screen and open the log or result file behind a number on this site, and re-count commits or run tests while you watch. Code, design details and patient data stay off screen. You see the file, but it is still my file on my machine.
 
@@ -20,6 +19,7 @@ That is the whole list for now. The rest of this page is about what can't be che
 - **Jarvis's usage numbers.** They come from the bot's own logs, not an audit. Its code is private.
 - **Commit and test counts.** The repos are private. Commit counts were re-counted from each project's git history; most test counts are what each project's own files recorded, not re-run.
 - **Mark One and the compression demonstrator.** Mark One was trained at home, and the demonstrator's numbers were recorded on my machine. The demonstrator was packaged so a stranger could re-run it, but it isn't published, so nobody can run it today.
+- **LIGHTGAP.** Its numbers are development numbers from my own PC, and its code is private. The sealed test had not run as of 2 Nov 2026.
 - **The dead ends.** They are in words because they happened. There is nothing to run.
 
 ## Project Hail Mary
@@ -54,15 +54,7 @@ That is the whole list for now. The rest of this page is about what can't be che
 
 **Not checkable yet.** The usage numbers, which come from the bot's logs and have not been audited. The evaluation results and the commit and test counts, because the repo is private. Patient chats and screenshots of the bot or the staff portal are never shown. That is a privacy rule, not a gap I plan to close.
 
-**Who made the commits.** Commits on Jarvis and the clinic website show "Jonathan Mifsud" because I committed under my dad's git identity. I build with AI coding tools, and the commit history shows that too.
-
-## Clinic website
-
-**What the site says.** A live site in English and Italian, 67 pages (20 in Italian), 527 commits from 17 Mar to 25 Nov 2026, and 128 clicks from search in the 4 weeks to 12 Nov 2026. See [the website page](projects/clinic-website.md).
-
-**What you can check today.** Open the site, switch between English and Italian, and look through the pages.
-
-**Not checkable yet.** The commit count, because the repo is private. The search clicks come from Google Search Console, which outsiders can't open.
+**Who made the commits.** Commits on Jarvis show "Jonathan Mifsud" because I committed under my dad's git identity. I build with AI coding tools, and the commit history shows that too.
 
 ## Mark One
 
@@ -82,6 +74,14 @@ That is the whole list for now. The rest of this page is about what can't be che
 
 **What would make it checkable.** Publishing the demonstrator, so anyone can re-run it and compare their numbers with mine. It is not published yet.
 
+## LIGHTGAP
+
+**What the site says.** My own text compressor, written from scratch in Rust. On a development set of 3,653,983 characters of English Wikipedia (enwik8, mapped to 26 letters and the space), it needed 1.152914 bits per character and decoded back exactly, against 1.7694 for 7-Zip PPMd. Beside that: a harness run against PPMd, brotli, bzip2, zstd, xz and gzip, a control, a random-data check, and the limits, including that these are development numbers. See [the LIGHTGAP page](projects/lightgap.md).
+
+**What you can check today.** Nothing you can run. enwik8, the text it was measured on, is a public benchmark, but my compressor is not: its code is private.
+
+**Not checkable yet.** Every number. They come from my own runs on my PC, and they are development numbers: the development set helped choose the settings. The test that counts is a sealed 5 MB of enwik8 with its pass line written down before the run (under 1.300 bits per character, decoded exactly), and it had not run as of 2 Nov 2026.
+
 ## Computing without binary
 
 **What the site says.** Tests of computing beyond binary, all in simulation, mostly negative and written down as negative. No chip has been made. See [the computing page](projects/computing-research.md).
@@ -90,17 +90,15 @@ That is the whole list for now. The rest of this page is about what can't be che
 
 **Not checkable yet.** Every simulation result. A review on 17 Nov re-opened 21 of my own chip numbers and found 1 bad, which was fixed. That review was inside my project too.
 
-## Other builds
+## QMK World and TETRA mesh
 
-Baseline Halo, Baseline Trace and Baseline Reclaim, FamilyWalkie, QMK World, Apex in 3D, the CBCT helper, TETRA mesh and the [smaller builds](projects/other-builds.md).
-
-**What the site says.** What each one is, its status, and, where one was re-counted, its commit count and for some a test count.
+**What the site says.** What each one is and its status, QMK World's exam result, and TETRA's test count. See [QMK World](projects/qmk-world.md) and [TETRA mesh](projects/tetra.md).
 
 **What you can check today.** Nothing you can open yet. QMK World's Malta is built from public elevation and building-height data, so the inputs are public, but the world itself isn't.
 
-**Not checkable yet.** The commit counts were re-counted from each project's git history on 26 Nov 2026, but the repos are private. The test counts are what each project's own files recorded (TETRA's status file, Halo's plan, a FamilyWalkie commit message), not re-run. None of these has been audited by anyone outside my projects. Apex in 3D's reels become checkable when the clinic posts them; none is posted yet.
+**Not checkable yet.** The repos are private. TETRA's test count is what its own status file recorded, not re-run. Neither has been audited by anyone outside my projects.
 
-**What would make it checkable.** A commit-date record for each project, Jarvis and the clinic website included: earliest and latest date, count and the author name the commits show, with no code and no commit text. It is not published yet.
+**What would make it checkable.** A commit-date record for each project, Jarvis included: earliest and latest date, count and the author name the commits show, with no code and no commit text. It is not published yet.
 
 ## Dead ends
 

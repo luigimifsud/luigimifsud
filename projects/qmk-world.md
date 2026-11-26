@@ -46,7 +46,7 @@ Paused since 7 Oct 2026.
 ## Not done yet
 
 - It is a prototype and it is paused.
-- Nobody outside my projects has run it. [How to check what this site says](../VERIFY.md#other-builds) goes through what you can and can't check.
+- Nobody outside my projects has run it. [How to check what this site says](../VERIFY.md#qmk-world-and-tetra-mesh) goes through what you can and can't check.
 
 ## Check it yourself
 

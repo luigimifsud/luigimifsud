@@ -48,24 +48,18 @@ The 32B and mixture-of-experts runs, the pilot, the timed runs against llama.cpp
 ## Everything else I've built
 
 **For Apex Dental (my dad's two clinics in Birkirkara, Malta)**
-- [Jarvis](projects/jarvis.md): a WhatsApp booking assistant, talking to real patients since at least 13 Sep 2026. From the bot's own logs, not an audit, in the week 12 to 18 Oct 2026: 388 chats with 269 phone numbers, and 54 payment holds, 22 of which became bookings. You can message the clinic on WhatsApp from its website and watch Jarvis answer.
-- [Clinic website](projects/clinic-website.md): [apexdentalmalta.com](https://www.apexdentalmalta.com), 67 pages in English and Italian, built from 17 Mar to 25 Nov 2026. You can open it today.
-- [Apex in 3D](projects/apex-in-3d.md): Instagram reels rendered frame by frame from the clinic's 3D treatment films, with no AI image or voice models. 5 ready, none posted yet.
-- [CBCT helper](projects/cbct-helper.md): a 3D Slicer add-on for dental implant planning that runs the public DentalSegmentator model. Prototype, awaiting clinical checks.
+- [Jarvis](projects/jarvis.md): a WhatsApp booking assistant, talking to real patients since at least 13 Sep 2026. From the bot's own logs, not an audit, in the week 12 to 18 Oct 2026: 388 chats with 269 phone numbers, and 54 payment holds, 22 of which became bookings. You can message the clinic on WhatsApp from its website, [apexdentalmalta.com](https://www.apexdentalmalta.com), and watch Jarvis answer.
 
 **Research that led here**
 - [Mark One](projects/mark-one.md): my own small language models (40M to 295M parameters), trained at home from 20 Apr to Sep 2026. On 192 held-out code windows cleaned of overlap with the training data, the 40M model scored 1.3615 bits per byte against 2.8362 for brotli -q 11, the strongest of 9 standard compressors on the same windows (lower is better). Standard compressors start cold on short windows, so this shows the model learned code, not that it is a better general-purpose compressor. It lost to Qwen's code models. Paused.
 - [Compression demonstrator](projects/compression-demo.md): a compression result on Python source, packaged so a stranger could re-run it, with its losses stated beside its win. Not published yet, so nobody can run it today.
+- [LIGHTGAP](projects/lightgap.md): my own text compressor, written from scratch in Rust from 25 Oct to 2 Nov 2026. On a development set of 3,653,983 characters of English Wikipedia (enwik8, mapped to 26 letters and the space), it needed 1.152914 bits per character and decoded back exactly, against 1.7694 for 7-Zip PPMd, the best standard compressor on my PC (lower is better). That set helped choose the settings, so it is not a test; the sealed test had not run as of 2 Nov 2026. Going under 1.3 bits per character is not new, so this is a compressor I built from nothing, not a record.
 - [Computing without binary](projects/computing-research.md): tests of computing beyond binary, all in simulation. Mostly negative, written down as negative.
 - [Dead ends](projects/dead-ends.md): what didn't work and why I stopped, including about seven weeks of earlier learning models (QMK and AMK) that never got past reading back what they had been fed, and PhotoLocator.
 
 **Other builds**
 - [QMK World](projects/qmk-world.md): an Earth-sized voxel simulator, with all 112,147 buildings of Malta and Gozo at their measured heights (about 20 to 30 parts in deep shadow are wrongly dropped, an estimate). On its physics exam it agreed with the real Earth on 10 of 42 items, a failing grade. Paused.
-- [Baseline Halo](projects/halo.md): a free Windows guardian with a stalkerware scan and encrypted chat. 131 commits.
-- [Baseline Trace and Baseline Reclaim](projects/trace-and-reclaim.md): a desktop tool for small EU crypto firms that checks addresses against the US sanctions list, and a Bitcoin exposure checker that never touches funds.
-- [FamilyWalkie](projects/familywalkie.md): a no-SIM family push-to-talk radio that uses every radio a phone has. 106 commits.
-- [TETRA mesh](projects/tetra.md): an overlay network with four layers of encryption, for distributed training. Prototype, dormant, never audited outside my projects.
-- [Smaller builds](projects/other-builds.md): FreedomChat and AgentLedger.
+- [TETRA mesh](projects/tetra.md): an overlay on top of the normal internet, with four layers of encryption, for distributed training. Prototype, dormant, never audited outside my projects.
 
 ## Where things stand
 
