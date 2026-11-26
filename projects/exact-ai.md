@@ -6,7 +6,7 @@ An engine that runs open language models so their answers can be re-made bit for
 
 ## What it is
 
-Project Alpha started on 9 Nov 2026, and I lead the research. I run it under the name Baseline Technologies. No company is incorporated yet.
+Project Alpha started on 9 Nov 2026, and I lead the research. My dad and I share it, under the name Baseline Technologies. No company is incorporated yet.
 
 The engine runs open models: five Qwen2.5 models from 0.5B to 32B, plus one mixture-of-experts model. The aim: ask the same question on another computer and get the same answer, down to the bit. The results below say which computers that has been tested on.
 

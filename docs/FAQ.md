@@ -36,7 +36,7 @@ Commits on Jarvis show "Jonathan Mifsud" because I committed under my dad's git 
 
 ## Is there a company?
 
-No company is incorporated, and no money has been raised. Project Alpha started on 9 Nov 2026, and I lead the research. I run it under the name Baseline Technologies. More is under Status on [the exact AI page](../projects/exact-ai.md#status).
+No company is incorporated, and no money has been raised. Project Alpha started on 9 Nov 2026, and I lead the research. My dad and I share it, under the name Baseline Technologies. More is under Status on [the exact AI page](../projects/exact-ai.md#status).
 
 ## Do you have customers or revenue?
 
@@ -56,4 +56,4 @@ Nobody outside my projects has reproduced a result, and there is no customer and
 
 ## How do I reach you?
 
-Message me on [LinkedIn](https://www.linkedin.com/in/luigi-mifsud-a65739293). I'm glad to get on a call, share my screen and open the file behind a number on this site, with code, design details and patient data off screen. The same link is at the end of [the home page](../README.md).
+Email me at luigi28mifsud@gmail.com, or message me on [LinkedIn](https://www.linkedin.com/in/luigi-mifsud-a65739293). I'm glad to get on a call, share my screen and open the file behind a number on this site, with code, design details and patient data off screen. The same link is at the end of [the home page](../README.md).

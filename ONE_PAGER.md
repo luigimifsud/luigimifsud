@@ -1,6 +1,6 @@
 # Luigi Mifsud
 
-Malta. Portfolio: https://github.com/luigimifsud. LinkedIn: https://www.linkedin.com/in/luigi-mifsud-a65739293
+Malta. luigi28mifsud@gmail.com. Portfolio: https://github.com/luigimifsud. LinkedIn: https://www.linkedin.com/in/luigi-mifsud-a65739293
 
 I work full time on my own projects. I do AI research at home.
 
@@ -22,7 +22,7 @@ It does not yet match a standard model at equal compute. The current model is on
 
 AI answers change between runs and machines, so nobody can later prove what an AI said. That matters wherever an AI answer decides money: audits, insurance claims, loans, payouts, evaluation. The EU AI Act asks high-risk systems to keep logs (Article 12).
 
-I lead the research on an engine that runs open language models so an answer can be re-made bit for bit on another machine and checked later. I run it under the name Baseline Technologies. Others publish determinism modes too (SGLang, vLLM and Gensyn). What I build around is the check afterwards: a signed receipt and a one-pass audit. A Windows pilot server signs every answer; it has been tested in-house so far.
+I lead the research on an engine that runs open language models so an answer can be re-made bit for bit on another machine and checked later. My dad and I share it, under the name Baseline Technologies. Others publish determinism modes too (SGLang, vLLM and Gensyn). What I build around is the check afterwards: a signed receipt and a one-pass audit. A Windows pilot server signs every answer; it has been tested in-house so far.
 
 Engine results, word for word as my project records them. "We" means the project; I'm applying on my own.
 

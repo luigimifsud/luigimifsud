@@ -5,7 +5,7 @@
 Two projects, side by side:
 
 - [Project Hail Mary](../projects/hail-mary.md): language models built from scratch, aimed at learning far more from far less data and memory.
-- [Project Alpha](../projects/exact-ai.md): an engine that runs open language models so their answers can be re-made bit for bit on other machines and checked later. I lead the research. I run it under the name Baseline Technologies.
+- [Project Alpha](../projects/exact-ai.md): an engine that runs open language models so their answers can be re-made bit for bit on other machines and checked later. I lead the research. My dad and I share it, under the name Baseline Technologies.
 
 ## How I got here
 

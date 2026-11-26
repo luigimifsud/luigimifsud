@@ -4,7 +4,7 @@
 
 Two projects on one question: language models built from scratch to learn far more from far less, and an engine whose AI answers can be re-made bit for bit and checked later.
 
-Malta. Portfolio: https://github.com/luigimifsud. LinkedIn: https://www.linkedin.com/in/luigi-mifsud-a65739293
+Malta. luigi28mifsud@gmail.com. Portfolio: https://github.com/luigimifsud. LinkedIn: https://www.linkedin.com/in/luigi-mifsud-a65739293
 
 Notes: I work full time on my own projects.
 
@@ -59,7 +59,7 @@ Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/hail-mary
 
 AI answers change between runs and machines, so nobody can later prove what an AI said. That matters wherever an AI answer decides money: audits, insurance claims, loans, payouts, evaluation. The EU AI Act asks high-risk systems to keep logs (Article 12).
 
-Since 9 Nov 2026 I've led the research. I run it under the name Baseline Technologies.
+Since 9 Nov 2026 I've led the research. My dad and I share it, under the name Baseline Technologies.
 
 - The engine: five Qwen2.5 open models from 0.5B to 32B, plus one mixture-of-experts model.
 - A pilot server for Windows that answers in the standard chat-completions format and signs every answer. Tested in-house so far.
@@ -165,7 +165,7 @@ The ask: the Thiel Fellowship, $250,000 over two years.
 
 Proposed use: outside reproduction of the main results on machines I don't own, a public benchmark run with pass and fail lines published in advance, a paying pilot where an AI answer decides money, and compute for the engine and for Hail Mary.
 
-Contact: https://www.linkedin.com/in/luigi-mifsud-a65739293
+Contact: luigi28mifsud@gmail.com. LinkedIn: https://www.linkedin.com/in/luigi-mifsud-a65739293
 
 Notes: This is a proposed plan, not a budget.
 

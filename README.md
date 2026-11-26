@@ -29,7 +29,7 @@ I keep how it works private for now. Every result, the losses included: [the Hai
 
 ## Project Alpha: the computing half
 
-Since 9 Nov 2026 I've led the research on an engine that runs open language models so their answers can be re-made bit for bit on other machines and checked later. I run it under the name Baseline Technologies.
+Since 9 Nov 2026 I've led the research on an engine that runs open language models so their answers can be re-made bit for bit on other machines and checked later. My dad and I share it, under the name Baseline Technologies.
 
 AI answers change between runs and machines, so nobody can later prove what an AI said. That matters wherever an AI answer decides money: audits, insurance claims, loans, payouts, evaluation. Others publish determinism modes too (SGLang, vLLM and Gensyn). What I build around is the check afterwards: a signed receipt and a one-pass audit.
 
@@ -75,6 +75,6 @@ Model cards, method, results and a timeline: [docs](docs/README.md).
 
 A one-page summary is in [ONE_PAGER.md](ONE_PAGER.md) and the slides are in [DECK.md](DECK.md).
 
-Contact: [LinkedIn](https://www.linkedin.com/in/luigi-mifsud-a65739293)
+Contact: luigi28mifsud@gmail.com or [LinkedIn](https://www.linkedin.com/in/luigi-mifsud-a65739293)
 
 Copyright (c) 2026 Luigi Mifsud. All rights reserved. See LICENSE.
