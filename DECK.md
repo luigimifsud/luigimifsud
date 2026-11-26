@@ -6,7 +6,7 @@ Two projects on one question: language models built from scratch to learn far mo
 
 Malta. Portfolio: https://github.com/luigimifsud. LinkedIn: https://www.linkedin.com/in/luigi-mifsud-a65739293
 
-Notes: I work full time on my own projects. A WhatsApp booking assistant I built is live with real patients.
+Notes: I work full time on my own projects.
 
 ## Slide 2: The question
 
@@ -98,17 +98,7 @@ Not done yet, and what would change that:
 
 Check: https://github.com/luigimifsud/luigimifsud/blob/main/VERIFY.md
 
-## Slide 9: Jarvis, live with real users
-
-A WhatsApp booking assistant for Apex Dental, my dad's two clinics in Birkirkara, Malta. Talking to real patients since at least 13 Sep 2026.
-
-From the bot's own logs, 12 to 18 Oct 2026: 388 chats with 269 phone numbers; 54 payment holds, 22 of which became bookings.
-
-Check: the clinic's website is live at apexdentalmalta.com, and you can message the clinic on WhatsApp from its website and watch Jarvis answer. Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/jarvis.md
-
-Notes: It reads and writes the clinic's practice-management diary, takes EUR 20 booking fees by card (SumUp) inside the chat, sends reminders with an SMS fallback, and reads every patient message for red-flag symptoms before anything else, in English, Italian, Spanish and Maltese. If it can't answer, it fails closed: the patient gets one fixed reply and staff are flagged. New behaviour runs in shadow mode before it goes live, and the rule is "cancel, never delete". Its own evaluation set of 12 Nov: 95 of 114 hand-built cases pass (83 percent); on 272 machine-picked "went wrong" moments, 61 pass (22 percent); 217 of 477 overall (45 percent). The 363 machine-picked cases have not been checked by a person. Jarvis had 3,078 commits on 26 Nov; they show "Jonathan Mifsud" because I committed under my dad's git identity. All Jarvis's users are the clinic's patients and staff, and there is no software revenue: the booking fees are clinic income. No patient chat or screenshot is ever shown.
-
-## Slide 10: Before these two: research that led here
+## Slide 9: Before these two: research that led here
 
 - **Mark One** (20 Apr to Sep 2026; 1,944 commits across the platform and the models): my own small language models, 40M to 295M parameters, trained at home. On 192 held-out code windows cleaned of overlap with the training data, the 40M model scored 1.3615 bits per byte, against 2.8362 for brotli -q 11, the strongest of 9 standard compressors scored on the same windows: 2.08 times smaller (95% confidence interval 2.016 to 2.159). Standard compressors start cold on short windows, so this shows the model learned code, not that it is a better general-purpose compressor.
 - **Mark One in Maltese:** 1.2733 bits per byte over 512 windows (95 percent interval 1.2305 to 1.3161), against 3.8010 for the general model on the same Maltese text.
@@ -122,16 +112,17 @@ Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/mark-one.
 
 Notes: Mark One also lost, and those losses are on the dead ends slide. An earlier result from my own model research in August is in appendix B, with the engine results, because it sits in the same record.
 
-## Slide 11: Two more builds
+## Slide 10: Three more builds
 
 - **QMK World** (late Sep to 7 Oct 2026): an Earth-sized voxel simulator, with Malta rebuilt 1:1: all 112,147 buildings of Malta and Gozo at their measured heights, from the national one-metre height survey (about 20 to 30 parts in deep shadow are wrongly dropped, an estimate). On an exam of 42 physics items on 27 Sep, the world agreed with the real Earth on 10, was wrong on 20 and could not tell on 12: a failing grade, said as one.
 - **TETRA mesh** (11 to 14 Sep 2026): an overlay on top of the normal internet, with four layers of encryption, for distributed training. 564 tests, 563 passing, from its status file; never audited outside my projects.
+- **Jarvis** (since at least 13 Sep 2026): a WhatsApp booking assistant for Apex Dental, my dad's two clinics in Birkirkara, Malta, live with real patients. From the bot's own logs, not an audit, 12 to 18 Oct 2026: 388 chats with 269 phone numbers; 54 payment holds, 22 of which became bookings.
 
-Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/qmk-world.md and https://github.com/luigimifsud/luigimifsud/blob/main/projects/tetra.md
+Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/qmk-world.md, https://github.com/luigimifsud/luigimifsud/blob/main/projects/tetra.md and https://github.com/luigimifsud/luigimifsud/blob/main/projects/jarvis.md
 
-Notes: TETRA's test count is what its own status file recorded, not re-run. QMK World is paused, and TETRA has been dormant since September 2026.
+Notes: TETRA's test count is what its own status file recorded, not re-run. QMK World is paused, and TETRA has been dormant since September 2026. All Jarvis's users are the clinic's patients and staff, and there is no software revenue: the booking fees are clinic income. No patient chat or screenshot is ever shown.
 
-## Slide 12: Dead ends and losses on record
+## Slide 11: Dead ends and losses on record
 
 > "A named wall is a result, not a failure."
 
@@ -147,7 +138,7 @@ Notes: TETRA's test count is what its own status file recorded, not re-run. QMK 
 
 Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/dead-ends.md
 
-## Slide 13: How I work
+## Slide 12: How I work
 
 - Written rules.
 - Pass and fail lines written before each test. In Hail Mary each pass rule is locked with a hash before any result is read; a change is a dated, hashed amendment, never an edit.
@@ -160,7 +151,7 @@ Details: https://github.com/luigimifsud/luigimifsud/blob/main/projects/dead-ends
 
 Notes: Another line of mine: "If something seems impossible, usually what I used to do was attack it still. ... But the idea is creating multiple variants and testing out new things." I build with AI coding tools; I set the rules, design the tests and decide what counts as done. When a result says "we" or "our", it means the project. I'm applying on my own.
 
-## Slide 14: Not yet
+## Slide 13: Not yet
 
 - Nobody outside my projects has reproduced a result.
 - No customer and no money raised. No company is incorporated.
@@ -168,7 +159,7 @@ Notes: Another line of mine: "If something seems impossible, usually what I used
 - All real users so far come through Apex Dental.
 - Hail Mary's current model is one week old and does not yet match a standard model at equal compute.
 
-## Slide 15: The next two years
+## Slide 14: The next two years
 
 The ask: the Thiel Fellowship, $250,000 over two years.
 

@@ -1,7 +1,7 @@
 # Luigi Mifsud
 
 I'm Luigi Mifsud. I live in Malta and work full time on my own projects.
-I do AI research at home, and I also build software that real patients use.
+I do AI research at home.
 
 ## The question
 
@@ -47,9 +47,6 @@ The 32B and mixture-of-experts runs, the pilot, the timed runs against llama.cpp
 
 ## Everything else I've built
 
-**For Apex Dental (my dad's two clinics in Birkirkara, Malta)**
-- [Jarvis](projects/jarvis.md): a WhatsApp booking assistant, talking to real patients since at least 13 Sep 2026. From the bot's own logs, not an audit, in the week 12 to 18 Oct 2026: 388 chats with 269 phone numbers, and 54 payment holds, 22 of which became bookings. You can message the clinic on WhatsApp from its website, [apexdentalmalta.com](https://www.apexdentalmalta.com), and watch Jarvis answer.
-
 **Research that led here**
 - [Mark One](projects/mark-one.md): my own small language models (40M to 295M parameters), trained at home from 20 Apr to Sep 2026. On 192 held-out code windows cleaned of overlap with the training data, the 40M model scored 1.3615 bits per byte against 2.8362 for brotli -q 11, the strongest of 9 standard compressors on the same windows (lower is better). Standard compressors start cold on short windows, so this shows the model learned code, not that it is a better general-purpose compressor. It lost to Qwen's code models. Paused.
 - [Compression demonstrator](projects/compression-demo.md): a compression result on Python source, packaged so a stranger could re-run it, with its losses stated beside its win. Not published yet, so nobody can run it today.
@@ -60,6 +57,7 @@ The 32B and mixture-of-experts runs, the pilot, the timed runs against llama.cpp
 **Other builds**
 - [QMK World](projects/qmk-world.md): an Earth-sized voxel simulator, with all 112,147 buildings of Malta and Gozo at their measured heights (about 20 to 30 parts in deep shadow are wrongly dropped, an estimate). On its physics exam it agreed with the real Earth on 10 of 42 items, a failing grade. Paused.
 - [TETRA mesh](projects/tetra.md): an overlay on top of the normal internet, with four layers of encryption, for distributed training. Prototype, dormant, never audited outside my projects.
+- [Jarvis](projects/jarvis.md): a WhatsApp booking assistant for Apex Dental, my dad's two dental clinics in Malta, used by real patients since September 2026. You can message the clinic on WhatsApp from [apexdentalmalta.com](https://www.apexdentalmalta.com) and watch it answer.
 
 ## Where things stand
 
